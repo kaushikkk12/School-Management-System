@@ -1,11 +1,11 @@
 public class Student {
-    private int studentId;
+    private int Id;
     private String name;
     private int age;
     // Other student attributes and methods
 
-    public Student(int studentId, String name, int age) {
-        this.studentId = studentId;
+    public Student(int Id, String name, int age) {
+        this.Id = Id;
         this.name = name;
         this.age = age;
     }
